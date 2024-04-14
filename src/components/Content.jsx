@@ -1,4 +1,3 @@
-import { toast } from "sonner";
 import { Link } from "react-router-dom";
 
 export function Content() {
@@ -20,13 +19,12 @@ export function Content() {
         >
           Médio
         </Link>
-        <a
-          href="#"
-          onClick={() => toast.warning("Em Breve...")}
+        <Link
+          to="/difficult"
           className="flex justify-center p-3 w-[300px] border border-red-400 rounded-xl bg-red-700 hover:bg-red-800 hover:duration-200"
         >
           Difícil
-        </a>
+        </Link>
       </div>
     </div>
   );

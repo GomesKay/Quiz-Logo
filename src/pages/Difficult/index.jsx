@@ -2,9 +2,9 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import { questions } from "../../questions/easy";
+import { questions } from "../../questions/difficult";
 
-export function Easy() {
+export function Difficult() {
   // Variáveis de estado
   const [quizScore, setQuizScore] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -48,7 +48,7 @@ export function Easy() {
   return (
     <main className="flex justify-center pt-32 h-screen font-sans text-3xl text-white bg-gradient-to-l from-teal-600 to-cyan-600 sm:pt-24">
       <div className="flex flex-col items-center gap-28 sm:gap-20">
-        <h1 className="font-bold">Dificuldade Fácil</h1>
+        <h1 className="font-bold">Dificuldade Difícil</h1>
 
         <img
           src={questions[currentIndex].img}

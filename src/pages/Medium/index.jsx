@@ -38,7 +38,7 @@ export function Medium() {
     if (currentIndex === questions.length - 1) {
       setDisabledLink(false);
       setTextButton("Fim do Quiz!");
-      toast.info(`Pontuação Final: ${quizScore}`);
+      toast.info(`Pontuação Final: ${quizScore} de ${questions.length}`);
     } else {
       setInputDisabled(true);
       setButtonDisabled(false);
