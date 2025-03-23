@@ -1,8 +1,8 @@
-import { Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
-import { Easy } from "./pages/Easy";
-import { Medium } from "./pages/Medium";
-import { Difficult } from "./pages/Difficult";
+import { Route, Routes } from "react-router-dom"
+import { Home } from "./pages/Home"
+import { Easy } from "./pages/Easy"
+import { Medium } from "./pages/Medium"
+import { Difficult } from "./pages/Difficult"
 
 export function Router() {
   return (
@@ -12,5 +12,5 @@ export function Router() {
       <Route path="/medium" element={<Medium />} />
       <Route path="/difficult" element={<Difficult />} />
     </Routes>
-  );
+  )
 }

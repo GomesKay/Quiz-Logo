@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 export function Content() {
   return (
     <div className="flex flex-col items-center gap-12">
-      <h1 className="font-bold">Bem-Vindo ao Quiz Logo</h1>
+      <h1 className="font-bold text-2xl">Bem-Vindo ao Quiz Logo</h1>
       <p className="font-light text-xl">Escolha a dificuldade abaixo:</p>
 
       <div className="flex flex-col gap-5 text-xl">
@@ -27,5 +27,5 @@ export function Content() {
         </Link>
       </div>
     </div>
-  );
+  )
 }
